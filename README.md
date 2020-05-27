@@ -2,7 +2,7 @@
 A simple budget calculator made with Vanilla Javascript
 
 # Link 
-https://alexandrosmelissas.github.io/DiceGame/
+https://alexandrosmelissas.github.io/BudgetCalculator/
 
 # Technologies Used
 

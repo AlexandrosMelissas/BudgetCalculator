@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="budget_container">
+        <div class="budget">
+            <h2 class="budget_heading">Available budget : </h2>
+            <h2 class="budget_total"><span class="budget_total-number">0</span></h2>
+            <div class="budget_income">
+                <p class="budget-text">Income : + <span class="budget_income-number">0</span></p>
+            </div>
+            <div class="budget_expenses">
+                <p class="budget-text">Expenses : -  <span class="budget_expense-number">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="input_container">
+        <select class="input select" name="" id="">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+        <input class="input description" type="text" placeholder="Add Description">
+        <input class="input value" type="number" placeholder="Value">
+        <ion-icon class="submit" name="add-circle-outline"></ion-icon>
+    </div>
+
+    <div class="main_container">
+        <div class="income-outter">
+            <h2 class="heading income_heading">Income</h2>
+            <div class="income_container">
+
+            </div>
+        </div>
+        <div class="expenses-outter">
+            <h2 class="heading expenses_heading">Expenses</h2>
+            <div class="expense_container">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
